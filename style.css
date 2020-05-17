@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #000;
+    line-height: 1.6;
+    background-color: #c9c9c9;
+
+}
+
+h5 {
+    font-size: 18px;
+}
+
+/* Intro */
+.intro {
+    background: url(assets/vinylblacknew.png) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.intro_title {
+    font-family: 'Major Mono Display', monospace;
+    padding-top: 15%;
+}
+
+.intro_subtitle {
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+
+/* History */
+
+.history {
+    background: url(assets/bonesnew.png) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.history_title {
+    padding-top: 15%;
+}
+
+.history_subtitle {
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+/* Timeline on the main page*/
+
+.timeline{
+    background: url(assets/recordsnew.png) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.timeline_title {
+    padding-top: 15%;
+}
+
+.timeline_subtitle {
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+
+/* Timeline on a separate page*/
+
+.timeline_inner {
+    padding-top: 2%;
+}
+
+/* Magazine*/
+
+.magazine {
+    background: url(assets/shelfnew1.png) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.magazine_title {
+    padding-top: 15%;
+}
+
+.magazine_subtitle {
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    border: 1.5px solid #000;
+    padding: 10px 40px;
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.btn-d {
+    display: inline-block;
+    border: 1px solid #000;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 50px;
+}
+
+/* Footer */
+
+footer a {
+    display: block;
+
+}
+
+
+#flink {
+    text-decoration: none;
+
+}
+
+/* Header */
+
+header {
+    font-size: 20px;
+}
+
+#logotop {
+    font-size: 19px;
+    font-family: 'Major Mono Display', monospace;
+}
+
+
+/* Context */
+
+.context_inner {
+    padding-top: 15%;
+}
+
+#context {
+    background: url(assets/contextnew.png) center no-repeat;
+    padding-bottom: 3%;
+}
+
+/* About us */
+
+.about_us {
+    padding-top: 2%;
+
+}
+
+#about_us{
+    background: url(assets/aboutus.png) center no-repeat;
+    padding-bottom: 5%;
+}
+
+#arthur {
+    filter: grayscale(100%);
+}
+
+/* Tabs */
+
+
+/* Magazine page */
+
+.magazinep {
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+
+/* Paddings */
+img {
+    padding-bottom: 3%;
+}
+
+
+.timeline_page {
+    padding-bottom: 3%;
+}
+
+
+.intro_subtitle {
+    text-align: center;
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 768px)
+    and (orientation : landscape) {
+        .intro,
+        .history,
+        .timeline,
+        .magazine {
+            height: 150vh;
+        }
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+    and (orientation : landscape) {
+        .intro,
+        .history,
+        .timeline,
+        .magazine {
+            height: 150vh;
+        }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+    and (orientation : landscape) {
+        .intro,
+        .history,
+        .timeline,
+        .magazine {
+            height: 180vh;
+        }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+        .intro,
+        .history,
+        .timeline,
+        .magazine {
+            height: 120vh;
+        }
+}
